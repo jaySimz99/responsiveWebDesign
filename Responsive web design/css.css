@@ -1,0 +1,45 @@
+body {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 20px; 
+}
+
+div {
+    width: 600px;
+    height: 750px; 
+}
+
+nav {
+    position: absolute;
+    left: 40%;  
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 2px 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    font-family: 'Mountains of Christmas', cursive; 
+}
+
+h1 {
+    text-align: center;
+}
+
+#responsive {
+    max-width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: cadetblue;
+    }
+}
